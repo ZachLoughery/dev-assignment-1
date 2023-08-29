@@ -1,0 +1,74 @@
+/* Maine Coon Fanpage CSS */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  background-color: #fff4d8;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 0;
+}
+
+nav ul {
+    display: inline-block;
+    font-size: large;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    padding: 0 5px 0 5px;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #74aa70;
+    padding: 10px;
+}
+
+footer p {
+    color: white;
+    margin: 0;
+}
+
+section {
+  padding: 0 15px 0 15px;
+}
+
+#mc-title {
+  background-color: #74aa70;
+  color: white;
+  font-size: xx-large;
+  padding: 5px 0 5px 0;
+  text-align: center;
+}
+
+#mc-title h1 {
+    margin: 15px;
+}
+
+#mc-header-img {
+    width: 15%;
+    height: auto;
+}
+
+#mc-gallery-images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+
+#mc-gallery-images img {
+  width: 20%;
+  height: auto;
+  border-style: none;
+  border-radius: 50%;
+}

@@ -5,17 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maine Coon Fanpage</title>
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
-    <style>
-      body {
-        background-color: #fff4d8;
-        font-family: Arial, Helvetica, sans-serif;
-      }
-    </style>
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/index.css" />
   </head>
+
   <body>
-    <div style="text-align: center">
-      <h1>Maine Coon Fanpage</h1>
-      <img src="images/maine-coon-1.webp" />
+    <header>
+      <div id="mc-title">
+        <h1>Maine Coon Fanpage</h1>
+        <nav>
+          <ul>
+            <li><a href="#mc-about">About</a></li>
+            <li><a href="#mc-links">Links</a></li>
+            <li><a href="#mc-gallery">Gallery</a></li>
+          </ul>
+        </nav>
+      </div>
+      <img id="mc-header-img" src="images/maine-coon-1.webp" />
       <h4>
         <em
           >"Your house will always be blessed with love, laughter, and
@@ -24,8 +30,9 @@
       </h4>
       <h4><strong>Lewis Carroll</strong></h4>
       <hr />
-    </div>
-    <div>
+    </header>
+
+    <section id="mc-about">
       <h2>🐈 <em>All About the Maine Coon</em></h2>
       <p>
         Oh my goodness, have you ever heard of the <strong>Maine Coon</strong>?
@@ -99,23 +106,48 @@
         kitties have a way of <em>stealing hearts</em> and turning even the
         <em>toughest "I'm a dog person" folks into total cat lovers</em>. 🐱💕
       </p>
+    </section>
+    <section id="mc-links">
+      <h2>😻 <em>Recommended Links</em></h2>
+      <ul>
+        <li>
+          <a href="https://en.wikipedia.org/wiki/Maine_Coon" target="_blank"
+            >Maine Coon on Wikipedia</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.purina.se/hitta-ett-husdjur/kattraser/maine-coon"
+            target="_blank"
+            >Breed Information (Svenska)</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.maine-coon-cat-nation.com/best-cat-quotes.html"
+            target="_blank"
+            >Quotes About Maine Coons</a
+          >
+        </li>
+      </ul>
+    </section>
+    <section id="mc-gallery">
+      <h2>😽 <em>Gallery</em></h2>
+      <div id="mc-gallery-images">
+      <img
+        src="images/maine-coon-2.webp"
+        alt="A fluffy gray Maine Coon in the snow"
+      />
+      <img
+        src="images/maine-coon-3.webp"
+        alt="A fuzzy tabby Maine Coon chilling out"
+      />
+      <img src="images/maine-coon-4.webp" alt="A majestic gray Maine Coon" />
+      <img src="images/maine-coon-5.webp" alt="An adorable Maine Coon kitten" />
     </div>
-    <div>
-        <h2>😻 <em>Recommended Links</em></h2>      
-        <ul>
-            <li><a href="https://en.wikipedia.org/wiki/Maine_Coon">Maine Coon on Wikipedia</a></li>
-            <li><a href="https://www.purina.se/hitta-ett-husdjur/kattraser/maine-coon">Breed Information (Svenska)</a></li>
-            <li><a href="https://www.maine-coon-cat-nation.com/best-cat-quotes.html">Quotes About Maine Coons</a></li>
-        </ul>
-    </div>
-    <div>
-        <h2>😽 <em>Gallery</em></h2>
-        <div style="text-align: center;">
-        <img src="images/maine-coon-2.webp">
-        <img src="images/maine-coon-3.webp">
-        <img src="images/maine-coon-4.webp">
-        <img src="images/maine-coon-5.webp">
-    </div>
-    </div>
+    </section>
+    <footer>
+      <p>2023 - Zach Loughery</p>
+    </footer>
   </body>
 </html>
